@@ -25,8 +25,7 @@ desktop
 
 -------------------------------------------------------------------*/
 
-@import 'base/manifest';
-@import 'old/manifest';
-@import 'helpers/manifest';
-@import 'layout/manifest';
-@import 'components/manifest';
+@import 'scss/base/manifest';
+@import 'scss/helpers/manifest';
+@import 'scss/layout/manifest';
+@import 'scss/components/manifest';
