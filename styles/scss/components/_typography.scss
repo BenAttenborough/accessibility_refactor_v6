@@ -13,8 +13,9 @@ a:hover {
   color: white;
 }
 
-.heading {
+h1 {
   font-size: 2em;
   text-transform: uppercase;
   color: $highlight-color;
+  margin-top: 10px;
 }

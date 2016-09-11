@@ -81,10 +81,6 @@ header .name {
   }
 }
 
-.heading {
-  margin-top: 10px;
-}
-
 .flex {
   @media screen and (min-width: $tablet-up) {
     display: -ms-flexbox; /* TWEENER - IE 10 */
