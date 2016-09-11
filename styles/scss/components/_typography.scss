@@ -2,9 +2,19 @@
 
 a {
   text-decoration: none;
-  color: #999;
+  color: $link-color;
 }
 
 a:hover {
-  color: #999;
+  color: $link-color;
+}
+
+.main-nav a {
+  color: white;
+}
+
+.heading {
+  font-size: 2em;
+  text-transform: uppercase;
+  color: $highlight-color;
 }
