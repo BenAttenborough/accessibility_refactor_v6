@@ -11,7 +11,8 @@ body {
 
 header {
   text-align: center;
-  background: url('../img/concert02_with_text.jpg') no-repeat top center;
+  //background: url('../img/concert02_with_text.jpg') no-repeat top center;
+  background: url('../img/concert02_no_text.jpg') no-repeat top center;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
@@ -19,6 +20,10 @@ header {
   @media screen and (min-width: $tablet-up) {
     min-height: 470px;
   }
+}
+
+.header-text {
+  padding: 2em 1em;
 }
 
 .tag {
@@ -100,4 +105,12 @@ main p {
   @media screen and (min-width: $tablet-up) {
     line-height: 1.6em;
   }
+}
+
+/* Tour page specific styles */
+
+.pick{
+  width: 40px;
+  height: 0%;
+  padding: 10px;
 }

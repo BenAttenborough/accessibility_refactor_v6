@@ -1,0 +1,16 @@
+label {
+  display: inline-block;
+  margin-bottom: .5em;
+}
+input:focus,
+textarea:focus,
+a:focus,
+button:focus,
+select:focus{
+  outline-color: red;
+}
+
+input:focus,
+textarea:focus {
+  background-color: $focus-color;
+}
