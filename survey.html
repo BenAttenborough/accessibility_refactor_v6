@@ -34,41 +34,44 @@
             <img class="photo" src="img/concert01.jpg" alt="Crowd at concert">
             <div class="container">
                 <form class="survey">
-                    <label>Who is your favorite band member:</label>
-                    <div class="radio">
-                        <input type="radio" name="fave_member" id="John" value="John">
-                        <label for="John" class="light">John</label>
-                    </div>
-                    <div class="radio">
-                        <input type="radio" name="fave_member" id="Hazzard" value="Hazzard">
-                        <label for="Hazzard" class="light">Hazzard</label>
-                    </div>
-                    <div class="radio">
-                        <input type="radio" name="fave_member" id="Bob" value="Bob">
-                        <label for="Bob" class="light">Bob</label>
-                    </div>
-                    <div class="radio">
-                        <input type="radio" name="fave_member" id="Sally" value="Sally">
-                        <label for="Sally" class="light">Sally</label>
-                    </div>
+                    <fieldset>
+                        <legend>Survey:</legend>
+                        <label>Who is your favorite band member:</label>
+                        <div class="radio">
+                            <input type="radio" name="fave_member" id="John" value="John">
+                            <label for="John" class="input_label">John</label>
+                        </div>
+                        <div class="radio">
+                            <input type="radio" name="fave_member" id="Hazzard" value="Hazzard">
+                            <label for="Hazzard" class="input_label">Hazzard</label>
+                        </div>
+                        <div class="radio">
+                            <input type="radio" name="fave_member" id="Bob" value="Bob">
+                            <label for="Bob" class="input_label">Bob</label>
+                        </div>
+                        <div class="radio">
+                            <input type="radio" name="fave_member" id="Sally" value="Sally">
+                            <label for="Sally" class="input_label">Sally</label>
+                        </div>
 
-                    <label>What is your favorite album:</label>
-                    <select id="albums" name="select">
-                        <option value="1">Party For An Angel</option>
-                        <option value="2">A Day Of Old</option>
-                        <option value="3">Finding My Shadow</option>
-                        <option value="4">Diamond Fireworks</option>
-                        <option value="5">Enjoy Your Desire</option>
-                        <option value="6">This Is For You</option>
-                        <option value="7">Music Of My Life</option>
-                        <option value="8">Song For Yesterday</option>
-                        <option value="9">Heroic Forever</option>
-                        <option value="10">Midnight Fires</option>
-                        <option value="11">Street Of The Rider</option>
-                    </select>
+                        <label>What is your favorite album:</label>
+                        <select id="albums" name="select">
+                            <option value="1">A Day Of Old</option>
+                            <option value="2">Diamond Fireworks</option>
+                            <option value="3">Enjoy Your Desire</option>
+                            <option value="4">Finding My Shadow</option>
+                            <option value="5">Heroic Forever</option>
+                            <option value="6">Midnight Fires</option>
+                            <option value="7">Music Of My Life</option>
+                            <option value="8">Party For An Angel</option>
+                            <option value="9">Song For Yesterday</option>
+                            <option value="10">Street Of The Rider</option>
+                            <option value="11">This Is For You</option>
+                        </select>
 
-                    <p>What is your favorite song:</p>
-                    <textarea></textarea>
+                        <p>What is your favorite song:</p>
+                        <textarea></textarea>
+                    </fieldset>
                 </form>
             </div>
         </div>
@@ -79,11 +82,22 @@
             <img class="photo" src="img/the_band.jpg" alt="The band performing">
             <div class="container">
                 <form class="newsletter">
-
-                    <p>Name: <input type="text" name="textfield"></p>
-                    <p>Email: <input type="email" name="textfield"></p>
-                    <p>Retype Email: <input type="email" name="textfield"></p>
-                    <button type="submit">Sign Up</button>
+                    <fieldset>
+                        <legend>Newsletter:</legend>
+                        <p>
+                            <label for="user_name">Name:</label>
+                            <input type="text" id="user_name" name="textfield">
+                        </p>
+                        <p>
+                            <label for="user_email">Email:</label>
+                            <input type="email" id="user_email" name="textfield">
+                        </p>
+                        <p>
+                            <label for="user_email_validation">Retype Email:</label>
+                            <input type="email" id="user_email_validation" name="textfield">
+                        </p>
+                        <button type="submit">Sign Up</button>
+                    </fieldset>
                 </form>
             </div>
         </div>
