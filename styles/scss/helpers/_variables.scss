@@ -1,4 +1,5 @@
 // Responsive breakpoints
+$mobile-med: 350px;
 $tablet-up: 840px;
 
 // Colors
@@ -7,6 +8,7 @@ $bg-color: #000;
 $focus-color: #ffe6e6;
 
 // Typography
+$font-stack: 'Montserrat', sans-serif;
 //$body-text-color: #3A6355;
 $body-text-color: #2eb82e;
 $link-color: #FFF;
